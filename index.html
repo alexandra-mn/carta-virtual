@@ -152,7 +152,7 @@ h1,h2{font-family:'Playfair Display',serif;font-weight:400}
   margin:0 auto 22px;box-shadow:0 15px 35px rgba(0,0,0,.4);
   transform:rotate(-3deg)
 }
-.final-photo img{width:100%;height:175px;object-fit:cover}
+.final-photo video{width:100%;height:175px;object-fit:cover;display:block;}
 .best{font-family:'Dancing Script',cursive;font-size:30px;color:var(--gold);margin-bottom:10px}
 .counter{display:flex;justify-content:center;gap:19px;margin:10px 0}
 .unit{min-width:70px}
@@ -284,7 +284,9 @@ h1,h2{font-family:'Playfair Display',serif;font-weight:400}
 <section class="screen" id="s3">
   <div class="content">
     <div class="final-photo">
-      <img src="fotos/foto4.jpg" alt="Foto final">
+      <video controls playsinline>
+        <source src="video1.mp4" type="video/mp4">
+      </video>
       <p class="caption">Siempre tú ♡</p>
     </div>
 
